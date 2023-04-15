@@ -1,0 +1,47 @@
+1.Write a blog on Difference between Document & Window object.
+    In the world of web development, the Document and Window objects are two essential objects t
+    hat are often used when working with HTML, CSS, and JavaScript. 
+    While both of these objects are part of the Document Object Model (DOM), 
+    they have different roles and responsibilities. In this blog post, we will explore the differences between 
+    the Document and Window objects in more detail.
+
+What is the Document Object?
+The Document object represents the HTML document displayed in the browser window. 
+It is the top-level object in the DOM hierarchy, and it provides access to all the elements and content within the document. 
+The Document object has several properties and methods that allow developers to manipulate the content of the document, 
+including the title, URL, and meta tags.
+
+Some of the commonly used properties and methods of the Document object include:
+document.title - returns the title of the document
+document.URL - returns the URL of the document
+document.getElementById() - returns the element with the specified ID
+document.createElement() - creates a new element
+
+What is the Window Object?
+The Window object represents the browser window or tab that is displaying the current HTML document. 
+It is the top-level object in the browser's JavaScript environment, and it provides access to various 
+browser-related information and functions. The Window object has several properties and methods that 
+allow developers to manipulate the browser window, including the size, position, and history.
+
+Some of the commonly used properties and methods of the Window object include:
+window.innerWidth - returns the inner width of the browser window
+window.innerHeight - returns the inner height of the browser window
+window.location - returns the URL of the current page
+window.alert() - displays an alert box with a message
+
+Key Differences between Document and Window Objects
+Scope: The Document object represents the content within the HTML document, 
+while the Window object represents the browser window that is displaying the document.
+
+Hierarchy: The Document object is a child of the Window object and is contained within it.
+
+Properties and Methods: The Document object has properties and methods that allow developers to manipulate the content of the HTML document, while the Window object has properties and methods that allow developers to manipulate the browser window itself.
+
+Accessibility: The Document object is accessible from within an iframe or a child window, while the Window object is only accessible from the same window or tab.
+
+Conclusion
+In summary, while the Document and Window objects are both essential components of web development, 
+they have different roles and responsibilities. Understanding the differences between these two objects 
+is essential for developers who want to manipulate the content of the HTML document or the browser window itself. 
+By utilizing the properties and methods of both the Document and Window objects, developers can create dynamic and 
+interactive web applications that provide a great user experience.
